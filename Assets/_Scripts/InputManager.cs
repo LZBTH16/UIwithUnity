@@ -36,6 +36,7 @@ public class InputManager : MonoBehaviour
         {
             OnSettingsMenu?.Invoke();
         }
+        if (GameManager.Instance.IsSettingsMenuActive) return; // to prevent input while paused
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
