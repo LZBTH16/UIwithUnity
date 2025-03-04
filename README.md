@@ -2,7 +2,7 @@
 
 A simple third person character controller in Unity, featuring HUD and settings menu UI.
 
-Third Person Platformer code & ReadMe after the demo video is from [COSC 416 Studio 3] (https://github.com/UBCO-COSC-416/Platformer-Studio-A3).
+Third Person Platformer code & ReadMe after the demo video is from [COSC 416 Studio 3](https://github.com/UBCO-COSC-416/Platformer-Studio-A3).
 
 ## Demo
 
