@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
     public UnityEvent<Vector2> OnMove = new();
     public UnityEvent OnJump = new();
     public UnityEvent OnDash = new();
+    public UnityEvent OnSettingsMenu = new();
     void Update()
     {
         Vector2 input = Vector2.zero;
@@ -28,6 +30,11 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             OnJump?.Invoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            OnSettingsMenu?.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
