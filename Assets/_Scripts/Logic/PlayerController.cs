@@ -116,5 +116,6 @@ public class PlayerController : MonoBehaviour
     public void UpdatePlayerMaxSpeed(float speed)
     {
         maxSpeed = speed;
+        Debug.Log("Max speed updated to: " + speed);
     }
 }
