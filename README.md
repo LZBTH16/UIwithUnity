@@ -1,20 +1,12 @@
-# Third Person Platformer
+# UI with Unity (ft. Third Person Platformer Repo)
 
-A simple third person character controller in Unity
+A simple third person character controller in Unity, featuring HUD and settings menu UI.
+
+Third Person Platformer code & ReadMe after the demo video is from [COSC 416 Studio 3](https://github.com/UBCO-COSC-416/Platformer-Studio-A3).
 
 ## Demo
 
-https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
-
-## Cloning & Setting Up the Project
-
-1. Ensure you have
-	- **Unity Hub** (Download: [Unity Hub](https://unity.com/download))
-	- **Unity Version** (6000.0.31f1)
-	- **Git** ([Download Git](https://git-scm.com/)) or **Github Desktop** ([Download Github Desktop](https://desktop.github.com/download/))
-2. Clone the project via [Git](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli) or [Github Desktop](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=desktop)
-3. Open **Unity Hub**
-4. Click **"Open"** and select the cloned project folder (with Assets, ProjectSettings, Packages)
+https://github.com/user-attachments/assets/57e8f325-413d-40dc-a9e7-b9591776bebb
 
 ## Features
 
