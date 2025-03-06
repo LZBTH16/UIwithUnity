@@ -17,10 +17,11 @@ public class CoinCounterUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Canvas.ForceUpdateCanvases();
         current.SetText("0");
         toUpdate.SetText("0");
         containerInitPosition = coinTextContainer.localPosition.y;
-        moveAmount = current.rectTransform.rect.height + 60; // add '+ 60' as configuring the UI for my screen resulted in having to set offsets from the instructions
+        moveAmount = current.rectTransform.rect.height;
     }
 
     public void UpdateScore(int score)
@@ -38,6 +39,6 @@ public class CoinCounterUI : MonoBehaviour
         yield return new WaitForSeconds(duration);
         current.SetText($"{score}"); // update the original score
         Vector3 localPosition = coinTextContainer.localPosition;
-        coinTextContainer.localPosition = new Vector3(localPosition.x, containerInitPosition + 60, localPosition.z); // resets the y-localPosition of the coinTextContainer
+        coinTextContainer.localPosition = new Vector3(localPosition.x, containerInitPosition, localPosition.z); // resets the y-localPosition of the coinTextContainer
     }
 }
